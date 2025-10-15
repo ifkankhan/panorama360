@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.gps.location.a360images.Panorama360View
+        android:id="@+id/panorama_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Instruction Container -->
+    <RelativeLayout
+        android:id="@+id/instruction_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false">
+
+        <!-- Swipe Animation - Left -->
+        <ImageView
+            android:id="@+id/swipe_left"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_swipe_left"
+            android:alpha="0.8"/>
+
+        <!-- Swipe Animation - Right -->
+        <ImageView
+            android:id="@+id/swipe_right"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_swipe_right"
+            android:alpha="0.8"/>
+
+        <!-- Swipe Animation - Up -->
+        <ImageView
+            android:id="@+id/swipe_up"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_swipe_up"
+            android:alpha="0.8"/>
+
+        <!-- Swipe Animation - Down -->
+        <ImageView
+            android:id="@+id/swipe_down"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_swipe_down"
+            android:alpha="0.8"/>
+
+        <!-- Instruction Text -->
+        <TextView
+            android:id="@+id/instruction_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Swipe to look around"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="#80000000"
+            android:padding="16dp"
+            android:alpha="0.9"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

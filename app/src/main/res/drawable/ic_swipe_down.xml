@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Arrow pointing down with motion lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,25 L28,35 L23,30 L21.5,31.5 L29,39 L36.5,31.5 L35,30 L30,35 L30,25 Z"/>
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M27,22 L27,15 L31,15 L31,22 Z"/>
+</vector>
+
+
