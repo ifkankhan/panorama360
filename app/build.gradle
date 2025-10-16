@@ -55,7 +55,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.yourusername'
+                groupId = 'com.github.ifkankhan'
                 artifactId = 'panorama360'
                 version = '1.0.0'
             }

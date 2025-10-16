@@ -1,6 +1,6 @@
 # Panorama360 - Android 360° Image Viewer Library
 
-[![](https://jitpack.io/v/yourusername/panorama360.svg)](https://jitpack.io/#yourusername/panorama360)
+[![](https://jitpack.io/v/ifkankhan/panorama360.svg)](https://jitpack.io/#ifkankhan/panorama360)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
 
@@ -46,7 +46,7 @@ In your app module's `build.gradle`:
 
 ```groovy
 dependencies {
-    implementation 'com.github.yourusername:panorama360:1.0.0'
+    implementation 'com.github.ifkankhan:panorama360:1.0.0'
 }
 ```
 
@@ -54,7 +54,7 @@ Or if using Kotlin DSL (`build.gradle.kts`):
 
 ```kotlin
 dependencies {
-    implementation("com.github.yourusername:panorama360:1.0.0")
+    implementation("com.github.ifkankhan:panorama360:1.0.0")
 }
 ```
 
@@ -253,9 +253,9 @@ SOFTWARE.
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/panorama360/issues) page
+1. Check the [Issues](https://github.com/ifkankhan/panorama360/issues) page
 2. Create a new issue with detailed information
-3. Check the [documentation](https://github.com/yourusername/panorama360/wiki)
+3. Check the [documentation](https://github.com/ifkankhan/panorama360/wiki)
 
 ## ⭐ Show Your Support
 
